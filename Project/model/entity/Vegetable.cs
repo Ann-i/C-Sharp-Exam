@@ -8,19 +8,19 @@ namespace Project.model.entity
 {
     public class Vegetable
     {
+        //individual parameters
         private double calories;
         private double weight;
-
+        //constructor without parameters
         public Vegetable()
-        {
-
-        }
+        {   }
+        //construnctor with parametrs + base constructor
         public Vegetable(double calories, double weight)
         {
             Calories = calories;
             Weight = weight;
         }
-
+        //get & set (calories)
         public double Calories
         {
             get { return calories; }
@@ -32,6 +32,7 @@ namespace Project.model.entity
                 }
             }
         }
+        //get & set (weight)
         public double Weight
         {
             get { return weight; }
@@ -43,7 +44,7 @@ namespace Project.model.entity
                 }
             }
         }
-
+        //function wich print parametrs of class + param from base class
         public override string ToString()
         {
             return $"Calories = {Calories}, Weight = {Weight}";

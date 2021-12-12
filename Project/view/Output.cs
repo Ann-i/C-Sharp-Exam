@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Project.view
 {
-    class Output
+    public static class Output
     {
-        public static void Print(StringBuilder str)
+        public static void Print(Object str)
         {
             Console.WriteLine(str);
         }

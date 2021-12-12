@@ -2,16 +2,12 @@
 
 namespace Project.model.logic
 {
-    public class Sheff_Cooker
+    //logic operations (wich in task))
+    static public class Sheff_Cooker
     {
-        private static Sheff_Cooker sheffcooker;
 
-        static Sheff_Cooker()
-        {
-            sheffcooker = new Sheff_Cooker();
-        }
-        private Sheff_Cooker() { }
-        public double CaltulateWeightOfSalad(Salad salad)
+        //function wich calculated "weight" of "salad"(array)
+        static public double CaltulateWeightOfSalad(Salad salad)
         {
             double sum = 0;
 
@@ -25,7 +21,8 @@ namespace Project.model.logic
 
             return sum;
         }
-        public double CalculateCalories(Salad salad)
+        //function wich calculate "calories" in "salad"(array)
+        static public double CalculateCalories(Salad salad)
         {
             double sum = 0;
 
@@ -39,7 +36,8 @@ namespace Project.model.logic
 
             return sum;
         }
-        public Vegetable TheMostHighCalorieProduct(Salad salad)
+        //function wich find the most-high "calorie vegetable" in "salad"(array)
+        static public Vegetable TheMostHighCalorieProduct(Salad salad)
         {
             Vegetable theMostHighCalorieProduct = null;
 

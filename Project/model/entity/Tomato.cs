@@ -2,18 +2,21 @@
 {
     public class Tomato : Vegetable
     {
+        //private parametres of class Tomato
         private string color;
-        private string sort;
-
+        private string variety;
+        //basic constructor (class Tomato)
         public Tomato()
         {
 
         }
+        //constructor with parametres
         public Tomato(string color, string sort, double calories, double weight) : base(calories, weight)
         {
             Color = color;
-            Sort = sort;
+                Variety = variety;
         }
+        //get & set (color)
         public string Color
         {
             get { return color; }
@@ -25,20 +28,22 @@
                 }
             }
         }
-        public string Sort
+        //get & set (variety)
+        public string Variety
         {
-            get { return sort; }
+            get { return variety; }
             set
             {
                 if (value != null)
                 {
-                    sort = value;
+                    variety = value;
                 }
             }
         }
+        //function wich print parametrs of class + param from base class
         public override string ToString()
         {
-            return $"Color = {color}, Sort = {sort}, " + base.ToString();
+            return $"Color = {color}, Variety = {variety}, " + base.ToString();
         }
     }
 }
