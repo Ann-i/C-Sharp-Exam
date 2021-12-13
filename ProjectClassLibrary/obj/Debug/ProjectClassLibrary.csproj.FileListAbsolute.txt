@@ -1,0 +1,6 @@
+D:\Programming\Project\C-Sharp-Exam\ProjectClassLibrary\bin\Debug\ProjectClassLibrary.dll
+D:\Programming\Project\C-Sharp-Exam\ProjectClassLibrary\bin\Debug\ProjectClassLibrary.pdb
+D:\Programming\Project\C-Sharp-Exam\ProjectClassLibrary\obj\Debug\ProjectClassLibrary.csproj.AssemblyReference.cache
+D:\Programming\Project\C-Sharp-Exam\ProjectClassLibrary\obj\Debug\ProjectClassLibrary.csproj.CoreCompileInputs.cache
+D:\Programming\Project\C-Sharp-Exam\ProjectClassLibrary\obj\Debug\ProjectClassLibrary.dll
+D:\Programming\Project\C-Sharp-Exam\ProjectClassLibrary\obj\Debug\ProjectClassLibrary.pdb

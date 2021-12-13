@@ -7,3 +7,10 @@ D:\Programming\C-Sharp-Exam\Project\obj\Debug\Project.csproj.AssemblyReference.c
 D:\Programming\C-Sharp-Exam\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
 D:\Programming\C-Sharp-Exam\Project\obj\Debug\Project.exe
 D:\Programming\C-Sharp-Exam\Project\obj\Debug\Project.pdb
+D:\Programming\Project\C-Sharp-Exam\Project\bin\Debug\Project.exe.config
+D:\Programming\Project\C-Sharp-Exam\Project\bin\Debug\Project.exe
+D:\Programming\Project\C-Sharp-Exam\Project\bin\Debug\Project.pdb
+D:\Programming\Project\C-Sharp-Exam\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+D:\Programming\Project\C-Sharp-Exam\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+D:\Programming\Project\C-Sharp-Exam\Project\obj\Debug\Project.exe
+D:\Programming\Project\C-Sharp-Exam\Project\obj\Debug\Project.pdb

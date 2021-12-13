@@ -1,7 +1,6 @@
 ﻿using System;
-using Project.model;
-using System.Text;
 using Project.view;
+using Project.model.logic;
 
 namespace Project
 {
@@ -9,12 +8,14 @@ namespace Project
     {
         static void Main(string[] args)
         {
+            Sheff_Cooker sheffCooker;
+
             //any conditions
             Output.Print("1. Inintialize by hardcode; \n" +
                          "2. Inintialize by random; \n");
 
             Output.Print("Your choice: ");
-            int choice = Convert.ToInt32(Console.ReadKey());
+            int choice = Convert.ToInt32(Console.Read());
             //selecting the method of initialization array
             switch (choice)
             {
@@ -27,8 +28,7 @@ namespace Project
                     {
                         //any method
                         break;
-                    }
-                    
+                    }  
                 default:
                     {
                         Output.Print("Sorry, but there's no such thing here.");
@@ -37,7 +37,7 @@ namespace Project
             }
             //Does the user want to print "salad"
             Output.Print("Did you want to print array?\n(YES - press \"y\", NO - press any key");
-            string key = Convert.ToString(Console.ReadKey());
+            string key = Convert.ToString(Console.Read());
             if (key == "y")
             {
                 //call any method which print array
@@ -49,11 +49,11 @@ namespace Project
                          "3. Find the most-high calories product;\n");
 
             Output.Print("Your choice: ");
-            choice = Convert.ToInt32(Console.ReadKey());
+            choice = Convert.ToInt32(Console.Read());
             switch (choice)
             {
                 case 1:
-                    { 
+                    {
                         //any method
                     break;
                     }
